@@ -12,6 +12,13 @@ Per-room BFS from each room is O((RC)²); flip the direction. Seed one BFS with 
 
 **Complexity:** O(R·C) time and queue.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
